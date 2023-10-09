@@ -19,9 +19,12 @@ session_start();
 <br>
 </head>
 <body>
+        
+
 <?php
-        // Include the content of index.html
-        include 'index.html';
+        // Link to index.html
+        echo '<a href="index.html">Go to Bite Bliss Website</a>';
     ?>
+
 </body>
 </html>
